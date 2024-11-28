@@ -76,7 +76,7 @@ unset($pdo);
                 <form action="profil.php" method="post" enctype="multipart/form-data">
                     <label for="fileInput" class="custom-file-input">Selectionne une photo</label>
                     <input type="file" id="fileInput" name="profile_image" accept="image/*" style="display: none;">
-                    <img id="imagePreview" src="" alt="Aperçu de l'image" style="max-width: 200px; max-height: 200px; display: none;" />
+                    <img id="imagePreview" src="" alt="Aperçu de la image" style="max-width: 200px; max-height: 200px; display: none;" />
                     <button type="submit" class="custom-file-input" id="submitButton">Mettre à jour la photo</button>
                 </form>
             </div>

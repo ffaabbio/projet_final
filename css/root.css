@@ -74,12 +74,12 @@ form {
     flex-basis: 120px;
     /* Largeur fixe pour les labels */
     margin-right: 10px;
-    /* Espacement entre le label et l'input */
+    /* Espacement entre le label et la input */
 }
 
 .form-group input {
     flex-grow: 1;
-    /* Permet aux inputs de prendre l'espace restant */
+    /* Permet aux inputs de prendre la espace restant */
 }
 
 

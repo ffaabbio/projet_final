@@ -14,14 +14,14 @@ form div {
 
 form label {
     flex-basis: 220px; /* Largeur fixe pour les labels */
-    margin-right: 10px; /* Espacement entre le label et l'input/textarea */
+    margin-right: 10px; /* Espacement entre le label et la input/textarea */
 }
 
 /* Style appliqué à la fois aux input et textarea */
 form input[type="text"],
 form input[type="datetime-local"],
 form textarea {
-    flex-grow: 1; /* Permet aux éléments de prendre l'espace restant */
+    flex-grow: 1; /* Permet aux éléments de prendre la espace restant */
     width: auto; /* S'assure que la largeur est automatiquement ajustée */
 }
 

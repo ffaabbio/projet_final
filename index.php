@@ -1,5 +1,5 @@
 <?php
-// Rediriger l'utilisateur vers la page de profil s'il est déjà connecté
+// Rediriger la utilisateur vers la page de profil s'il est déjà connecté
 if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
     header("location: profil.php");
     exit;
