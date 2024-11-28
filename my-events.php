@@ -68,7 +68,7 @@ unset($pdo);
                     <div class="event">
                         <div>
                             <?php if (!empty($event["image"])) : ?>
-                                <img class="image-rect" src="data:image/jpeg;base64,<?php echo $event["image"]; ?>" alt="Image de l'fête">
+                                <img class="image-rect" src="data:image/jpeg;base64,<?php echo $event["image"]; ?>" alt="Image de la fête">
                             <?php else : ?>
                                 <img src="/images/no-image.jpg" alt="Pas d'image disponible">
                             <?php endif; ?>

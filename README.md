@@ -22,7 +22,7 @@ Bienvenue sur Party Planner, une application web pour ajouter et visualiser des 
 
 - Serveur web avec support PHP (WAMP pour Windows, MAMP pour macOS, LAMP pour Linux)
 
-Il est recommandé d'installer WAMP, MAMP ou LAMP, qui incluent à la fois un serveur web et PHP, facilitant ainsi la mise en place de l'environnement nécessaire.
+Il est recommandé d'installer WAMP, MAMP ou LAMP, qui incluent à la fois un serveur web et PHP, facilitant ainsi la mise en place de la environnement nécessaire.
 
 
 ### Configuration du serveur
@@ -30,14 +30,14 @@ Il est recommandé d'installer WAMP, MAMP ou LAMP, qui incluent à la fois un se
 1. Modifiez le fichier `includes/config.php` :
    - `DB_SERVER` : URL de la base de données.
    - `DB_USERNAME` : Nom d'utilisateur pour la base de données.
-   - `DB_PASSWORD` : Mot de passe de l'utilisateur.
+   - `DB_PASSWORD` : Mot de passe de la utilisateur.
 
 ## Structure des fichiers
 
 - `index.php` : Page de connexion.
 - `inscription.php` : Formulaire d'inscription.
-- `profil.php` : Informations de l'utilisateur connecté.
-- `my-events.php` : Liste des fêtes créés par l'utilisateur.
+- `profil.php` : Informations de la utilisateur connecté.
+- `my-events.php` : Liste des fêtes créés par la utilisateur.
 - `event-list.php` : Liste de tous les fêtes.
 - `event-details.php` : Détails d'un fête spécifique.
 - `creation-event.php` : Formulaire d'ajout d'fête.
